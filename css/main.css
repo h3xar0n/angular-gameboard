@@ -13,6 +13,10 @@ body {
   max-width: 980px;
 }
 
+.col-sm-4 {
+  min-height: 260px;
+}
+
 .container .row .col-sm-4 {
   margin: 0 0 30px;
 }
@@ -42,7 +46,7 @@ li:hover {
 /* Header */
 .header {
   background: #000;
-  margin: 0 0 40px;
+  margin: 0 0 60px;
 }
 
 .header h1 {
@@ -103,3 +107,46 @@ li:hover {
     width: 100%;
   }
 }
+
+/* More row */
+
+.more {
+  position: relative;
+}
+
+.more-btn-container {
+  display: inline-block;
+  width: 90%;
+}
+
+.more-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.more-menu li {
+  display: inline-block;
+  font-size: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0 12px 0 0;
+}
+
+.bell {
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  text-align: right;
+  top: 12px;
+  width: 8%;
+}
+
+.share-menu span {
+  color: #fff;
+  margin: 0 10px 0 0;
+}
+
+.notification.active { 
+  color: #ffd400;
+  text-shadow: 0 0 10px #ffd400;
+} 

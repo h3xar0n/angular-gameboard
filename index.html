@@ -17,12 +17,12 @@
 
     <div class="main" ng-controller="ScoreController">
       <div class="container">
-        <div class="row">
+        <div class="row is-flex">
           <game info="score" ng-repeat="score in scores"></game>
         </div>
       </div>
     </div>
-    
+
     <!-- Modules -->
     <script src="js/app.js"></script>
 
@@ -31,6 +31,10 @@
 
     <!-- Directives -->
     <script src="js/directives/game.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>
+    <script src='js/jquery.js'></script>
 
   </body>
 </html>
